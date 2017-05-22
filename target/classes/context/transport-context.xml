@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="Transport1" class="maxoop.model.Transportation.Transport">
+    <property name="id" value="5"/>
+    <property name="typeofcar" value="Bus"/>
+    <property name="name" value="Mercedes Sprinter"/>
+    <property name="countofmembers" value="12"/>
+    </bean>
+    <bean id="Transport2" class="maxoop.model.Transportation.Transport">
+        <property name="id" value="6"/>
+        <property name="typeofcar" value="Car"/>
+        <property name="name" value="BMW X6"/>
+        <property name="countofmembers" value="5"/>
+    </bean>
+    <bean id="Transport3" class="maxoop.model.Transportation.Transport">
+        <property name="id" value="7"/>
+        <property name="typeofcar" value="Truck"/>
+        <property name="name" value="MANN"/>
+        <property name="countofmembers" value="2"/>
+    </bean>
+    <bean id="Transport4" class="maxoop.model.Transportation.Transport">
+        <property name="id" value="8"/>
+        <property name="typeofcar" value="Bus"/>
+        <property name="name" value="Mercedes Viano"/>
+        <property name="countofmembers" value="6"/>
+    </bean>
+
+</beans>

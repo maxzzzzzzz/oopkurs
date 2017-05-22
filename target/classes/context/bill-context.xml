@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <import resource="client-context.xml"/>
+    <import resource="order-context.xml"/>
+    <import resource="transport-context.xml"/>
+    <bean id="Bill1" class="maxoop.model.Bill.Bill">
+       <property name="id" value="13"/>
+        <property name="client" ref="Client1"/>
+        <property name="order" ref="Order1"/>
+        <property name="transport" ref="Transport1"/>
+    </bean>
+    <bean id="Bill2" class="maxoop.model.Bill.Bill">
+        <property name="id" value="14"/>
+        <property name="client" ref="Client1"/>
+        <property name="order" ref="Order2"/>
+        <property name="transport" ref="Transport1"/>
+    </bean>
+    <bean id="Bill3" class="maxoop.model.Bill.Bill">
+        <property name="id" value="15"/>
+        <property name="client" ref="Client1"/>
+        <property name="order" ref="Order3"/>
+        <property name="transport" ref="Transport1"/>
+    </bean>
+    <bean id="Bill4" class="maxoop.model.Bill.Bill">
+        <property name="id" value="16"/>
+        <property name="client" ref="Client1"/>
+        <property name="order" ref="Order4"/>
+        <property name="transport" ref="Transport1"/>
+    </bean>
+    <bean id="Bill5" class="maxoop.model.Bill.Bill">
+        <property name="id" value="17"/>
+        <property name="client" ref="Client1"/>
+        <property name="order" ref="Order2"/>
+        <property name="transport" ref="Transport2"/>
+    </bean>
+    <bean id="Bill6" class="maxoop.model.Bill.Bill">
+        <property name="id" value="18"/>
+        <property name="client" ref="Client2"/>
+        <property name="order" ref="Order1"/>
+        <property name="transport" ref="Transport2"/>
+    </bean>
+    <bean id="Bill7" class="maxoop.model.Bill.Bill">
+        <property name="id" value="19"/>
+        <property name="client" ref="Client3"/>
+        <property name="order" ref="Order3"/>
+        <property name="transport" ref="Transport3"/>
+    </bean>
+    <bean id="Bill8" class="maxoop.model.Bill.Bill">
+        <property name="id" value="20"/>
+        <property name="client" ref="Client4"/>
+        <property name="order" ref="Order2"/>
+        <property name="transport" ref="Transport2"/>
+    </bean>
+    <bean id="Bill9" class="maxoop.model.Bill.Bill">
+        <property name="id" value="21"/>
+        <property name="client" ref="Client2"/>
+        <property name="order" ref="Order2"/>
+        <property name="transport" ref="Transport4"/>
+    </bean>
+    <bean id="Bill10" class="maxoop.model.Bill.Bill">
+        <property name="id" value="22"/>
+        <property name="client" ref="Client4"/>
+        <property name="order" ref="Order3"/>
+        <property name="transport" ref="Transport2"/>
+    </bean>
+
+</beans>

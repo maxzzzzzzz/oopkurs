@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Order1" class="maxoop.model.Order.Order">
+        <property name="id" value="9"/>
+        <property name="departure" value="Charkiv"/>
+        <property name="arrival" value="Sumy"/>
+        <property name="distance" value="300"/>
+    </bean>
+    <bean id="Order2" class="maxoop.model.Order.Order">
+    <property name="id" value="10"/>
+    <property name="departure" value="Lviv"/>
+    <property name="arrival" value="Donetsk"/>
+    <property name="distance" value="1200"/>
+     </bean>
+    <bean id="Order3" class="maxoop.model.Order.Order">
+        <property name="id" value="11"/>
+        <property name="departure" value="Kyiv"/>
+        <property name="arrival" value="Moscow"/>
+        <property name="distance" value="2000"/>
+    </bean>
+    <bean id="Order4" class="maxoop.model.Order.Order">
+        <property name="id" value="12"/>
+        <property name="departure" value="Chernivtsi"/>
+        <property name="arrival" value="Buchurest"/>
+        <property name="distance" value="500"/>
+    </bean>
+
+</beans>

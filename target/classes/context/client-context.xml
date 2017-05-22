@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Client1" class="maxoop.model.Client.Client">
+        <property name="id" value="1"/>
+        <property name="name" value="Maxim"/>
+        <property name="surname" value="Sorokin"/>
+        <property name="lvlofclient" value="500"/>
+    </bean>
+    <bean id="Client2" class="maxoop.model.Client.Client">
+        <property name="id" value="2"/>
+        <property name="name" value="Viktor"/>
+        <property name="surname" value="Ilin"/>
+        <property name="lvlofclient" value="0"/>
+    </bean>
+    <bean id="Client3" class="maxoop.model.Client.Client">
+        <property name="id" value="3"/>
+        <property name="name" value="Vlad"/>
+        <property name="surname" value="Gankevuch"/>
+        <property name="lvlofclient" value="50"/>
+    </bean>
+    <bean id="Client4" class="maxoop.model.Client.Client">
+        <property name="id" value="4"/>
+        <property name="name" value="Andrex"/>
+        <property name="surname" value="Voitechiwskii"/>
+        <property name="lvlofclient" value="7"/>
+    </bean>
+
+
+</beans>
